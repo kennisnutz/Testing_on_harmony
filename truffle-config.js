@@ -9,12 +9,12 @@ const networkId = {
 
 module.exports = {
   networks: {
-    localnet: {
-      provider: () => {
-        return new PrivateKeyProvider(process.env.LOCALNET_PRIVATE_KEY, 'http://localhost:9500', networkId.Testnet)
-      },
-      network_id: networkId.Testnet
-    },
+    // localnet: {
+    //   provider: () => {
+    //     return new PrivateKeyProvider(process.env.LOCALNET_PRIVATE_KEY, 'http://localhost:9500', networkId.Testnet)
+    //   },
+    //   network_id: networkId.Testnet
+    // },
 
     testnet: {
       provider: () => {
